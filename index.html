@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>bmi calc</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Body Mass Index CALCULATOR</h1>
+    <div id='calculator-wrapper'>
+        <form method="GET">
+            <label for='weight-input'>Weight:</label>
+            <input type='number' id='weight-input' placeholder='e.g 80kg'>
+            <small>Your weight in kilogrammes.</small>
+            <label for='height-input'>Height:</label>
+            <input type='number' id='height-input' placeholder='e.g 192cm'>
+            <small>Your height in centimetres.</small>
+            <button type='button' id='submit-button'>Calculate</button>
+        </form>
+        <div id='result-wrapper'>
+            <p id='result'>Your BMI index here.</p>
+        </div>
+        <p id='long-info'></p>
+    </div>
+    <div id='info'>
+        
+    </div>
+</body>
+
+</html>
+<link rel='stylesheet' href='stylesheet/style.css'>
+<script src='scripts/app.js'></script>

@@ -1,0 +1,12 @@
+{
+  "name": "bmi-calc-project",
+  "version": "1.0.0",
+  "description": "simple bmi calculator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kawka Mateusz",
+  "license": "MIT"
+  }
+}
